@@ -1,0 +1,19 @@
+{
+  "name": "rupuengg/initial",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Rupuengg\\Initial\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Rupendra"
+    }
+  ],
+  "require": {},
+  "scripts": {
+    "start": "php -S localhost:8070 -t public",
+    "test": "phpunit"
+  }
+}
